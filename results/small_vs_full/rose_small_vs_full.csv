@@ -1,0 +1,4 @@
+Model,5-shot,10-shot,20%,Full,5-shot_strategy,10-shot_strategy,20%_strategy,Full_strategy
+resnet18,59.94,77.88,90.81,96.58,微调最后,微调最后,微调最后,微调最后
+resnet50,61.54,78.85,92.63,98.18,全参数微调,微调最后,微调最后,微调最后
+efficientnet_v2_s,68.06,75.32,94.23,98.18,全参数微调,全参数微调,微调最后,冻结

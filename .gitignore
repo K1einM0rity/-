@@ -1,0 +1,41 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 模型权重（体积大，不入库；如需保留请自行备份）=====
+*.pth
+*.pt
+*.onnx
+models/saved/
+models/saved_rice/
+models/saved_rose/
+models/saved_tomato/
+
+# ===== 数据集（GitHub 单文件 100MB / 仓库大小限制，且数据有版权，需自行准备）=====
+raw/
+raw_rose/
+raw_tomato/
+data_small/
+data_small_rice/
+data_small_rose/
+data_small_tomato/
+
+# ===== IDE / 系统 =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

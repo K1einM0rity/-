@@ -1,0 +1,18 @@
+模型: resnet18  策略: fine_tune_last
+验证准确率: 0.9323
+=======================================================
+                                   precision    recall  f1-score   support
+
+                 Tomato_D01_ulcer     0.9565    0.9706    0.9635        68
+           Tomato_D04_leaf_fungus     0.9623    0.9808    0.9714       156
+    Tomato_D05_septoria_leaf_spot     0.9865    0.9359    0.9605       156
+            Tomato_D07_deer_virus     1.0000    0.4444    0.6154        27
+Tomato_D08_Yellow_Leaf_Curl_Virus     0.9185    0.9764    0.9466       127
+        Tomato_D09_powdery_mildew     0.8571    0.8571    0.8571        14
+                   Tomato_Healthy     0.8882    0.9679    0.9264       156
+            Tomato_P03_leaf_miner     0.9177    0.9295    0.9236       156
+             Tomato_P05_blueworms     0.8611    0.7561    0.8052        41
+
+                         accuracy                         0.9323       901
+                        macro avg     0.9276    0.8688    0.8855       901
+                     weighted avg     0.9342    0.9323    0.9293       901

@@ -1,0 +1,18 @@
+模型: efficientnet_v2_s  策略: freeze_all
+验证准确率: 0.9645
+=======================================================
+                                   precision    recall  f1-score   support
+
+                 Tomato_D01_ulcer     1.0000    0.9559    0.9774        68
+           Tomato_D04_leaf_fungus     0.9742    0.9679    0.9711       156
+    Tomato_D05_septoria_leaf_spot     0.9689    1.0000    0.9842       156
+            Tomato_D07_deer_virus     0.8000    0.7407    0.7692        27
+Tomato_D08_Yellow_Leaf_Curl_Virus     0.9000    0.9921    0.9438       127
+        Tomato_D09_powdery_mildew     1.0000    0.7857    0.8800        14
+                   Tomato_Healthy     0.9934    0.9615    0.9772       156
+            Tomato_P03_leaf_miner     0.9870    0.9744    0.9806       156
+             Tomato_P05_blueworms     0.9744    0.9268    0.9500        41
+
+                         accuracy                         0.9645       901
+                        macro avg     0.9553    0.9228    0.9371       901
+                     weighted avg     0.9655    0.9645    0.9643       901

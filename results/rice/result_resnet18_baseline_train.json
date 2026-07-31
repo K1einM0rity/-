@@ -1,0 +1,11 @@
+{
+  "model_name": "resnet18",
+  "strategy": "baseline",
+  "best_val_acc": 69.92625841615903,
+  "history": {
+    "train_loss": [],
+    "train_acc": [],
+    "val_loss": [],
+    "val_acc": []
+  }
+}
